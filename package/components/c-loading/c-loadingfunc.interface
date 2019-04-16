@@ -11,7 +11,7 @@ interface CLoadingInterface {
     scheduleTime = 0;
     move(context) {}
     loadingWrapStyle(cb) {
-      cb('position: fixed; left: 0; right: 0; top: 0; bottom: 0; z-index: 998;');
+      cb('position: fixed; left: 0; right: 0; top: 0; bottom: 0; z-index: 998;justify-content: center;');
     }
   }
 
@@ -60,7 +60,7 @@ interface CLoadingInterface {
     scheduleTime = 50;
     move(context) {}
     loadingWrapStyle(cb) {
-      cb('position: fixed; left: 0; right: 0; top: 0; bottom: 0; z-index: 998;');
+      cb('position: fixed; left: 0; right: 0; top: 0; bottom: 0; z-index: 998;justify-content: center;');
     }
   }
 
